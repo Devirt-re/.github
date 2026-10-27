@@ -34,23 +34,23 @@
 <rect x="36" y="118" width="400" height="164" rx="10" fill="#15181f" stroke="#272c36"/>
 <text x="54" y="142" class="label">PROTECTED · VM HANDLERS</text>
 <rect class="trace" x="44" y="169" width="384" height="20" rx="4" fill="rgba(105,181,245,0.16)"/>
-<text x="54" y="164" class="code " xml:space="preserve"><tspan class="dim">; vm_entry  0x1400a2c0</tspan></text>
-<text x="54" y="184" class="code " xml:space="preserve"><tspan class="accent">H_04</tspan><tspan class="fg">  vpush   </tspan><tspan class="fg">vr7</tspan></text>
-<text x="54" y="204" class="code " xml:space="preserve"><tspan class="accent">H_12</tspan><tspan class="fg">  vldq    </tspan><tspan class="fg">[vsp+8]</tspan></text>
-<text x="54" y="224" class="code " xml:space="preserve"><tspan class="accent">H_21</tspan><tspan class="fg">  vxor    </tspan><tspan class="fg">vr2, </tspan><tspan class="num">0x5f3a</tspan></text>
-<text x="54" y="244" class="code " xml:space="preserve"><tspan class="accent">H_33</tspan><tspan class="fg">  vcmp    </tspan><tspan class="fg">vr2, vr0</tspan></text>
-<text x="54" y="264" class="code " xml:space="preserve"><tspan class="accent">H_08</tspan><tspan class="fg">  vjcc    </tspan><tspan class="fg">H_17</tspan></text>
+<text x="54" y="164" class="code "><tspan class="dim">; vm_entry  0x1400a2c0</tspan></text>
+<text x="54" y="184" class="code "><tspan class="accent">H_04</tspan><tspan class="fg">  vpush   </tspan><tspan class="fg">vr7</tspan></text>
+<text x="54" y="204" class="code "><tspan class="accent">H_12</tspan><tspan class="fg">  vldq    </tspan><tspan class="fg">[vsp+8]</tspan></text>
+<text x="54" y="224" class="code "><tspan class="accent">H_21</tspan><tspan class="fg">  vxor    </tspan><tspan class="fg">vr2, </tspan><tspan class="num">0x5f3a</tspan></text>
+<text x="54" y="244" class="code "><tspan class="accent">H_33</tspan><tspan class="fg">  vcmp    </tspan><tspan class="fg">vr2, vr0</tspan></text>
+<text x="54" y="264" class="code "><tspan class="accent">H_08</tspan><tspan class="fg">  vjcc    </tspan><tspan class="fg">H_17</tspan></text>
 
 <rect x="564" y="118" width="400" height="164" rx="10" fill="#15181f" stroke="#272c36"/>
 <text x="582" y="142" class="label">RECOVERED · PSEUDOCODE</text>
 <g class="pill"><rect x="868" y="128" width="78" height="20" rx="10" fill="#4ade80" fill-opacity="0.14" stroke="#4ade80"/>
 <text x="907" y="142" text-anchor="middle" class="sans" font-size="11" font-weight="600" letter-spacing="1" fill="#4ade80">PROVEN</text></g>
-<text x="582" y="164" class="code r0" xml:space="preserve"><tspan class="accent">int </tspan><tspan class="fg">validate_header(</tspan><tspan class="accent">const </tspan><tspan class="fg">hdr_t *h)</tspan></text>
-<text x="582" y="184" class="code r1" xml:space="preserve"><tspan class="fg">{</tspan></text>
-<text x="582" y="204" class="code r2" xml:space="preserve"><tspan class="accent">    if </tspan><tspan class="fg">(h-&gt;magic != HDR_MAGIC)</tspan></text>
-<text x="582" y="224" class="code r3" xml:space="preserve"><tspan class="accent">        return </tspan><tspan class="num">0</tspan><tspan class="fg">;</tspan></text>
-<text x="582" y="244" class="code r4" xml:space="preserve"><tspan class="accent">    return </tspan><tspan class="fg">checksum(h) == h-&gt;crc;</tspan></text>
-<text x="582" y="264" class="code r5" xml:space="preserve"><tspan class="fg">}</tspan></text>
+<text x="582" y="164" class="code r0"><tspan class="accent">int </tspan><tspan class="fg">validate_header(</tspan><tspan class="accent">const </tspan><tspan class="fg">hdr_t *h)</tspan></text>
+<text x="582" y="184" class="code r1"><tspan class="fg">{</tspan></text>
+<text x="582" y="204" class="code r2"><tspan class="accent">    if </tspan><tspan class="fg">(h-&gt;magic != HDR_MAGIC)</tspan></text>
+<text x="582" y="224" class="code r3"><tspan class="accent">        return </tspan><tspan class="num">0</tspan><tspan class="fg">;</tspan></text>
+<text x="582" y="244" class="code r4"><tspan class="accent">    return </tspan><tspan class="fg">checksum(h) == h-&gt;crc;</tspan></text>
+<text x="582" y="264" class="code r5"><tspan class="fg">}</tspan></text>
 
 <line class="flow" x1="450" y1="200" x2="550" y2="200" stroke="#69b5f5" stroke-width="2" stroke-linecap="round"/>
 <path d="M542 194L551 200L542 206" fill="none" stroke="#69b5f5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
