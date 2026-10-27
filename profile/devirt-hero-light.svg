@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 312" width="1000" height="312" role="img" aria-labelledby="title desc">
+<title id="title">Devirt: binary devirtualization for authorized analysis</title>
+<desc id="desc">Devirt (devirt.re) traces a program protected by a virtual machine, handler by handler, and recovers readable, native-shaped pseudocode that is checked against the original. Illustrative example · no customer data.</desc>
+<style>
+.code{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;font-size:15px}
+.sans{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif}
+.fg{fill:#1d2230}.accent{fill:#3457cf}.num{fill:#b45309}.dim{fill:#8a93a3}
+.label{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11.5px;letter-spacing:1.2px;fill:#5b6475}
+.trace{animation:trace 9s steps(1,end) infinite}
+@keyframes trace{0%{transform:translateY(0);opacity:0}4%{opacity:1}5%{transform:translateY(0px)}13%{transform:translateY(20px)}21%{transform:translateY(40px)}29%{transform:translateY(60px)}37%{transform:translateY(80px)}45%{transform:translateY(80px);opacity:1}50%,100%{transform:translateY(80px);opacity:0}}
+.flow{stroke-dasharray:5 9;animation:flow 1.1s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-28}}
+.bar{animation:bar 2.2s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
+@keyframes bar{0%,100%{opacity:1}50%{opacity:.35}}
+@keyframes r0{0%,40%{opacity:0;transform:translateY(4px)}43.0%,90%{opacity:1;transform:none}100%{opacity:0;transform:none}}.r0{animation:r0 9s linear infinite}
+@keyframes r1{0%,45%{opacity:0;transform:translateY(4px)}48.0%,90%{opacity:1;transform:none}100%{opacity:0;transform:none}}.r1{animation:r1 9s linear infinite}
+@keyframes r2{0%,50%{opacity:0;transform:translateY(4px)}53.0%,90%{opacity:1;transform:none}100%{opacity:0;transform:none}}.r2{animation:r2 9s linear infinite}
+@keyframes r3{0%,55%{opacity:0;transform:translateY(4px)}58.0%,90%{opacity:1;transform:none}100%{opacity:0;transform:none}}.r3{animation:r3 9s linear infinite}
+@keyframes r4{0%,60%{opacity:0;transform:translateY(4px)}63.0%,90%{opacity:1;transform:none}100%{opacity:0;transform:none}}.r4{animation:r4 9s linear infinite}
+@keyframes r5{0%,65%{opacity:0;transform:translateY(4px)}68.0%,90%{opacity:1;transform:none}100%{opacity:0;transform:none}}.r5{animation:r5 9s linear infinite}
+@keyframes pill{0%,74%{opacity:0;transform:translateY(4px)}77.0%,90%{opacity:1;transform:none}100%{opacity:0;transform:none}}.pill{animation:pill 9s linear infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs><pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#d9dee8"/></pattern></defs>
+<rect x="0.5" y="0.5" width="999" height="311" rx="14" fill="#ffffff" stroke="#d9dee8"/>
+<rect x="1" y="1" width="998" height="310" rx="14" fill="url(#dots)" opacity="0.55"/>
+<g transform="translate(36 30) scale(1.26) translate(-2.625 -9.84)">
+<g transform="translate(1.925 8) scale(0.7)"><path d="M3 5H16C25 5 30 11 30 20S25 35 16 35H3ZM9 11V29H16C21 29 24 26 24 20S21 11 16 11Z" fill="#1d2230" fill-rule="evenodd"/><path d="M1 17H17V23H1Z" fill="#3457cf"/></g>
+<path d="M43.506 33.584Q41.33 33.584 39.698 32.56Q38.066 31.536 37.17 29.632Q36.274 27.728 36.274 25.2Q36.274 22.64 37.17 20.752Q38.066 18.864 39.698 17.84Q41.33 16.816 43.506 16.816Q45.106 16.816 46.37 17.504Q47.634 18.192 48.434 19.44V10.8H52.338V33.2H48.626L48.498 30.864Q47.698 32.144 46.418 32.864Q45.138 33.584 43.506 33.584ZM44.498 30Q45.618 30 46.482 29.424Q47.346 28.848 47.858 27.824Q48.37 26.8 48.434 25.488V24.944Q48.37 23.6 47.858 22.576Q47.346 21.552 46.466 20.976Q45.586 20.4 44.466 20.4Q43.25 20.4 42.306 21.008Q41.362 21.616 40.834 22.704Q40.306 23.792 40.306 25.2Q40.306 26.608 40.85 27.696Q41.394 28.784 42.338 29.392Q43.282 30 44.498 30ZM61.554 33.584Q59.186 33.584 57.378 32.512Q55.57 31.44 54.53 29.552Q53.49 27.664 53.49 25.2Q53.49 22.736 54.546 20.848Q55.602 18.96 57.458 17.888Q59.314 16.816 61.714 16.816Q63.858 16.816 65.602 17.92Q67.346 19.024 68.386 21.12Q69.426 23.216 69.426 26.192H57.554Q57.714 27.984 58.978 29.04Q60.242 30.096 61.938 30.096Q63.346 30.096 64.242 29.488Q65.138 28.88 65.618 27.888L69.074 29.296Q68.434 30.64 67.362 31.6Q66.29 32.56 64.85 33.072Q63.41 33.584 61.554 33.584ZM57.778 23.248H65.202Q65.106 22.192 64.562 21.504Q64.018 20.816 63.218 20.48Q62.418 20.144 61.618 20.144Q60.85 20.144 59.986 20.464Q59.122 20.784 58.514 21.472Q57.906 22.16 57.778 23.248ZM74.546 33.2 67.954 17.2H71.986L76.53 28.72L81.01 17.2H85.074L78.482 33.2ZM85.682 33.2V17.2H89.554V33.2ZM87.634 14.384Q86.738 14.384 86.05 13.712Q85.362 13.04 85.362 12.112Q85.362 11.184 86.05 10.512Q86.738 9.84 87.634 9.84Q88.562 9.84 89.234 10.512Q89.906 11.184 89.906 12.112Q89.906 13.04 89.234 13.712Q88.562 14.384 87.634 14.384ZM91.89 33.2V17.2H95.762V20.112Q96.754 18.608 98.274 17.872Q99.794 17.136 101.426 17.136V20.88Q99.986 20.88 98.69 21.264Q97.394 21.648 96.578 22.496Q95.762 23.344 95.762 24.72V33.2ZM108.466 33.584Q105.874 33.584 104.53 32.288Q103.186 30.992 103.186 28.624V20.528H100.562V17.2H103.186V12.208H107.058V17.2H111.25V20.528H107.058V27.792Q107.058 28.88 107.554 29.424Q108.05 29.968 109.01 29.968Q109.33 29.968 109.698 29.84Q110.066 29.712 110.514 29.392L111.922 32.336Q111.122 32.912 110.226 33.248Q109.33 33.584 108.466 33.584Z" fill="#1d2230"/><path d="M114.866 33.68Q113.874 33.68 113.17 32.96Q112.466 32.24 112.466 31.248Q112.466 30.256 113.17 29.552Q113.874 28.848 114.866 28.848Q115.858 28.848 116.578 29.552Q117.298 30.256 117.298 31.248Q117.298 32.24 116.578 32.96Q115.858 33.68 114.866 33.68ZM118.866 33.2V17.2H122.738V20.112Q123.73 18.608 125.25 17.872Q126.77 17.136 128.402 17.136V20.88Q126.962 20.88 125.666 21.264Q124.37 21.648 123.554 22.496Q122.738 23.344 122.738 24.72V33.2ZM136.146 33.584Q133.778 33.584 131.97 32.512Q130.162 31.44 129.122 29.552Q128.082 27.664 128.082 25.2Q128.082 22.736 129.138 20.848Q130.194 18.96 132.05 17.888Q133.906 16.816 136.306 16.816Q138.45 16.816 140.194 17.92Q141.938 19.024 142.978 21.12Q144.018 23.216 144.018 26.192H132.146Q132.306 27.984 133.57 29.04Q134.834 30.096 136.53 30.096Q137.938 30.096 138.834 29.488Q139.73 28.88 140.21 27.888L143.666 29.296Q143.026 30.64 141.954 31.6Q140.882 32.56 139.442 33.072Q138.002 33.584 136.146 33.584ZM132.37 23.248H139.794Q139.698 22.192 139.154 21.504Q138.61 20.816 137.81 20.48Q137.01 20.144 136.21 20.144Q135.442 20.144 134.578 20.464Q133.714 20.784 133.106 21.472Q132.498 22.16 132.37 23.248Z" fill="#3457cf"/>
+</g>
+<text x="36" y="94" class="sans" font-size="17" fill="#5b6475">Binary devirtualization for authorized analysis</text>
+<text x="964" y="54" class="label" text-anchor="end">VMPROTECT · THEMIDA · CODE VIRTUALIZER</text>
+
+<rect x="36" y="118" width="400" height="164" rx="10" fill="#f6f8fb" stroke="#d9dee8"/>
+<text x="54" y="142" class="label">PROTECTED · VM HANDLERS</text>
+<rect class="trace" x="44" y="169" width="384" height="20" rx="4" fill="rgba(52,87,207,0.12)"/>
+<text x="54" y="164" class="code " xml:space="preserve"><tspan class="dim">; vm_entry  0x1400a2c0</tspan></text>
+<text x="54" y="184" class="code " xml:space="preserve"><tspan class="accent">H_04</tspan><tspan class="fg">  vpush   </tspan><tspan class="fg">vr7</tspan></text>
+<text x="54" y="204" class="code " xml:space="preserve"><tspan class="accent">H_12</tspan><tspan class="fg">  vldq    </tspan><tspan class="fg">[vsp+8]</tspan></text>
+<text x="54" y="224" class="code " xml:space="preserve"><tspan class="accent">H_21</tspan><tspan class="fg">  vxor    </tspan><tspan class="fg">vr2, </tspan><tspan class="num">0x5f3a</tspan></text>
+<text x="54" y="244" class="code " xml:space="preserve"><tspan class="accent">H_33</tspan><tspan class="fg">  vcmp    </tspan><tspan class="fg">vr2, vr0</tspan></text>
+<text x="54" y="264" class="code " xml:space="preserve"><tspan class="accent">H_08</tspan><tspan class="fg">  vjcc    </tspan><tspan class="fg">H_17</tspan></text>
+
+<rect x="564" y="118" width="400" height="164" rx="10" fill="#f6f8fb" stroke="#d9dee8"/>
+<text x="582" y="142" class="label">RECOVERED · PSEUDOCODE</text>
+<g class="pill"><rect x="868" y="128" width="78" height="20" rx="10" fill="#15803d" fill-opacity="0.14" stroke="#15803d"/>
+<text x="907" y="142" text-anchor="middle" class="sans" font-size="11" font-weight="600" letter-spacing="1" fill="#15803d">PROVEN</text></g>
+<text x="582" y="164" class="code r0" xml:space="preserve"><tspan class="accent">int </tspan><tspan class="fg">validate_header(</tspan><tspan class="accent">const </tspan><tspan class="fg">hdr_t *h)</tspan></text>
+<text x="582" y="184" class="code r1" xml:space="preserve"><tspan class="fg">{</tspan></text>
+<text x="582" y="204" class="code r2" xml:space="preserve"><tspan class="accent">    if </tspan><tspan class="fg">(h-&gt;magic != HDR_MAGIC)</tspan></text>
+<text x="582" y="224" class="code r3" xml:space="preserve"><tspan class="accent">        return </tspan><tspan class="num">0</tspan><tspan class="fg">;</tspan></text>
+<text x="582" y="244" class="code r4" xml:space="preserve"><tspan class="accent">    return </tspan><tspan class="fg">checksum(h) == h-&gt;crc;</tspan></text>
+<text x="582" y="264" class="code r5" xml:space="preserve"><tspan class="fg">}</tspan></text>
+
+<line class="flow" x1="450" y1="200" x2="550" y2="200" stroke="#3457cf" stroke-width="2" stroke-linecap="round"/>
+<path d="M542 194L551 200L542 206" fill="none" stroke="#3457cf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="500" cy="200" r="24" fill="#ffffff" stroke="#d9dee8"/>
+<g transform="translate(484.5 185) scale(1.0) translate(-1 -5)"><path d="M3 5H16C25 5 30 11 30 20S25 35 16 35H3ZM9 11V29H16C21 29 24 26 24 20S21 11 16 11Z" fill="#1d2230" fill-rule="evenodd"/><path class="bar" d="M1 17H17V23H1Z" fill="#3457cf"/></g>
+<text x="500" y="246" text-anchor="middle" class="label">DEVIRTUALIZE</text>
+
+<text x="964" y="298" text-anchor="end" class="sans" font-size="11" fill="#8a93a3">Illustrative example · no customer data</text>
+</svg>
