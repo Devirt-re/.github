@@ -12,6 +12,7 @@
   <a href="https://devirt.re/services"><img src="https://img.shields.io/badge/services-devirtualization%20%26%20analysis-69b5f5?style=for-the-badge&labelColor=0f0f0f" alt="Devirt services"></a>
   <a href="https://devirt.re/research"><img src="https://img.shields.io/badge/research-methods%20%26%20results-69b5f5?style=for-the-badge&labelColor=0f0f0f" alt="Devirt research"></a>
   <a href="https://devirt.re/docs"><img src="https://img.shields.io/badge/API-REST%20%2B%20webhooks-69b5f5?style=for-the-badge&labelColor=0f0f0f" alt="Devirt API docs"></a>
+  <a href="https://www.youtube.com/@devirtre"><img src="https://img.shields.io/badge/youtube-%40devirtre-f2f2f2?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0f0f0f" alt="Devirt on YouTube"></a>
   <a href="https://medium.com/@devirt"><img src="https://img.shields.io/badge/medium-%40devirt-f2f2f2?style=for-the-badge&logo=medium&logoColor=white&labelColor=0f0f0f" alt="Devirt on Medium"></a>
   <a href="https://dev.to/devirt"><img src="https://img.shields.io/badge/dev.to-devirt-f2f2f2?style=for-the-badge&logo=devdotto&logoColor=white&labelColor=0f0f0f" alt="Devirt on DEV Community"></a>
 </p>
@@ -154,7 +155,7 @@ Devirt processes each file in isolation and does not use customer files for mode
 
 ## Find Devirt elsewhere
 
-[Website](https://devirt.re) · [Knowledge base](https://devirt.gitbook.io/devirt/) · [Notion](https://devirt.notion.site/Devirt-bc247eb0c77e83d2928b81c547846d64) · [Medium](https://medium.com/@devirt) · [DEV Community](https://dev.to/devirt) · [SourceForge](https://sourceforge.net/software/product/Devirt/) · [Devpost](https://devpost.com/software/devirt) · [Quora](https://www.quora.com/profile/Devirt) · [Gravatar](https://gravatar.com/devirtre) · [Contact](https://devirt.re/contact)
+[Website](https://devirt.re) · [YouTube](https://www.youtube.com/@devirtre) · [Knowledge base](https://devirt.gitbook.io/devirt/) · [Notion](https://devirt.notion.site/Devirt-bc247eb0c77e83d2928b81c547846d64) · [Medium](https://medium.com/@devirt) · [DEV Community](https://dev.to/devirt) · [SourceForge](https://sourceforge.net/software/product/Devirt/) · [Devpost](https://devpost.com/software/devirt) · [Quora](https://www.quora.com/profile/Devirt) · [Gravatar](https://gravatar.com/devirtre) · [Bluesky](https://bsky.app/profile/devirtre.bsky.social) · [Mastodon](https://mastodon.social/@devirt) · [Reddit](https://www.reddit.com/user/devirtre) · [Hacker News](https://news.ycombinator.com/user?id=Devirt) · [Buttondown](https://buttondown.com/devirt) · [Quora Space](https://devirt.quora.com) · [Contact](https://devirt.re/contact)
 
 ---
 
