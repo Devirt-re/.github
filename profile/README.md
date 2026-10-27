@@ -154,7 +154,7 @@ Devirt processes each file in isolation and does not use customer files for mode
 
 ## Find Devirt elsewhere
 
-[Website](https://devirt.re) · [Medium](https://medium.com/@devirt) · [DEV Community](https://dev.to/devirt) · [SourceForge](https://sourceforge.net/software/product/Devirt/) · [Devpost](https://devpost.com/software/devirt) · [Quora](https://www.quora.com/profile/Devirt) · [Gravatar](https://gravatar.com/devirtre) · [Contact](https://devirt.re/contact)
+[Website](https://devirt.re) · [Knowledge base](https://devirt.gitbook.io/devirt/) · [Notion](https://devirt.notion.site/Devirt-bc247eb0c77e83d2928b81c547846d64) · [Medium](https://medium.com/@devirt) · [DEV Community](https://dev.to/devirt) · [SourceForge](https://sourceforge.net/software/product/Devirt/) · [Devpost](https://devpost.com/software/devirt) · [Quora](https://www.quora.com/profile/Devirt) · [Gravatar](https://gravatar.com/devirtre) · [Contact](https://devirt.re/contact)
 
 ---
 
