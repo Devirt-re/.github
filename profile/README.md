@@ -24,12 +24,11 @@
 
 ```mermaid
 flowchart LR
-    A["Protected binary<br/>PE · ELF · Mach-O"] --> B["Trace the virtual machine<br/>as the program runs"]
-    B --> C["Rebuild VM state<br/>and control flow"]
+    A["Protected<br/>binary"] --> B["Trace the VM<br/>as it runs"]
+    B --> C["Rebuild state<br/>and control flow"]
     C --> D["Native-shaped<br/>functions"]
-    D --> E{"Checked against<br/>the original"}
-    E --> F["IDA database · pseudocode<br/>report · LLVM IR · JSON"]
-    E --> G["Coverage ledger"]
+    D --> E["Check against<br/>the original"]
+    E --> F["Outputs and<br/>coverage ledger"]
 ```
 
 Devirt checks recovered code in three ways:
