@@ -10,6 +10,7 @@
 @keyframes l1{0%,22%{opacity:0;transform:translateY(4px)}25.0%,92%{opacity:1;transform:none}100%{opacity:0;transform:none}}.l1{animation:l1 10s linear infinite}
 @keyframes l2{0%,36%{opacity:0;transform:translateY(4px)}39.0%,92%{opacity:1;transform:none}100%{opacity:0;transform:none}}.l2{animation:l2 10s linear infinite}
 @keyframes l3{0%,50%{opacity:0;transform:translateY(4px)}53.0%,92%{opacity:1;transform:none}100%{opacity:0;transform:none}}.l3{animation:l3 10s linear infinite}
+.scan,.l0,.l1,.l2,.l3{animation-delay:-6s}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
 <rect x="0.5" y="0.5" width="999" height="289" rx="14" fill="#0f0f0f" stroke="#272c36"/>
 <text x="36" y="44" class="sans" font-size="20" font-weight="600" fill="#f2f2f2">Coverage ledger</text>
